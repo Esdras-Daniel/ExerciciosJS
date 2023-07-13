@@ -1,0 +1,27 @@
+Qual eh o erro deste programa?
+
+let i;
+
+for (i = 1; i < 10; i++) {
+  let soma = 0;
+  soma += i * i;
+}
+
+console.log(soma);
+
+
+
+Resposta:
+
+Neste código, há um problema de escopo da variável soma. Ela está declarada dentro do bloco do loop for, o que significa que seu escopo se restringe a esse bloco. Portanto, ao tentar imprimir o valor de soma fora do loop, ocorrerá um erro de referência, indicando que a variável soma não está definida.
+
+Para corrigir esse problema, é necessário mover a declaração da variável soma para fora do loop, de modo que ela possa ser acessada no escopo global. A versão corrigida em JavaScript ficaria assim:
+
+let i;
+let soma = 0;
+
+for (i = 1; i < 10; i++) {
+  soma += i * i;
+}
+
+console.log(soma);

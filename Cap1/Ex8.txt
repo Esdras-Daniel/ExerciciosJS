@@ -1,0 +1,17 @@
+Identifique o tipo das seguintes constantes:
+
+a) '\r' - Caractere
+b) 2130 - Inteiro
+c) -123 - Inteiro
+d) 33.28 - Ponto Flutuante
+e) 0xFA - Inteiro Hexadecimal
+f) 0101 - Inteiro Octal
+g) 2.0e30 - Ponto Flutuante
+h) '\xDC' - Caractere
+i) '"' - Caractere
+j) '\' - Caractere
+k) 'F' - Caractere
+l) 0 - Inteiro
+m) '\0' - Caractere
+n) "F" - String
+o) -4567.89 - Ponto Flutuante

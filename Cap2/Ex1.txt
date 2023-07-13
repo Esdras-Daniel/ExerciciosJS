@@ -1,0 +1,8 @@
+Quais dos seguintes operadores sao aritmeticos?
+
+a) +;
+b) &&;
+c) %;
+d) <;
+
+Resposta: Podemos considerar "operador aritmetico" aquele que opera dois numeros quaisquer e retorna outro numero qualquer. Por exemplo, 2 + 4 resulta em 6. 10 % 5 resulta em 0. O mesmo nao podemos dizer sobre os outros operadores. 5 && 8 resulta em erro pois o operador logico && compara true com false e retorna true ou false. O mesmo para o operador relacional <. 5 < 4 resulta em false, 5 > 4 resulta em true. Portanto a resposta é a) e c)

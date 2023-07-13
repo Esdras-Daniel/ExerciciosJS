@@ -1,0 +1,9 @@
+Letras maiúsculas e minúsculas em JavaScript são diferentes?
+
+a) Depende da implementação do interpretador
+b) Verdadeiro
+c) Falso
+
+Resposta: b) Verdadeiro
+
+Em JavaScript, as letras maiúsculas e minúsculas são tratadas como caracteres distintos. Isso significa que variáveis e identificadores com letras maiúsculas e minúsculas diferentes são considerados diferentes. Por exemplo, uma variável nome é diferente de uma variável Nome. Além disso, ao chamar uma função ou acessar uma propriedade de um objeto em JavaScript, é necessário respeitar a capitalização correta. Por exemplo, console.log é diferente de Console.Log.

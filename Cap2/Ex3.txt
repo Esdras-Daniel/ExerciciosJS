@@ -1,0 +1,16 @@
+Supondo que todas as variaveis sao do tipo int, encontre o valor de cada uma das expressoes a seguir:
+
+a) x = (2+1)*6; 
+Primeiro o que esta entre parenteses (2+1), resulta em 3. Depois a multiplicacao 3*6. Logo, x = 18
+
+b) y = (5+1)/2*3; 
+Primeiro o parenteses (5+1). Teremos entao divisao e multiplicacao que tem a mesma precedencia. Nos casos de mesma precedencia vamos da esquerda para direita. Sendo assim teremos 6/2, que resulta em 3 e depois 3*3 que resulta em 9. Logo y = 9
+
+c) i = j=(2+3)/4; 
+O operador de atribuicao "=" tem a menor precedencia, portanto sera a ultima operacao a ser realizada. Resolvemos primeiramente os parentes (2+3) que resulta em 5. Depois 5/4 que retorna 1. Lembrando que o '/' retorna o valor inteiro da divisao. Logo, i = j = 1
+
+d) a = 3+2*(b=7/2); 
+Primeiro os parenteses. 7/2 da 3. b = 3. teriamos entao 2+3*b, resolve primeiro a multiplicacao. 3*2 resulta em 6, 6+3 da 9 Logo a = 9
+
+e) c = 5+10%4/2; 
+O '%' e '/'* tem mesma precedencia. Neste caso comecaremos da esquerda para a direita, entao 10%4 resulta em 2 (resto da divisao de 10 por 4. Este resultado divide por 2. 2/2 resulta em 1. 1 + 5 eh 6. Logo c = 6 

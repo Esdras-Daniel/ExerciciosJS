@@ -1,0 +1,13 @@
+Os operadores relacionais sao usados para:
+
+a) combinar valores; 
+Nao
+
+b) comparar valores; 
+Sim, x > y verifica/compara se x eh maior que y e responde se eh verdade ou nao.
+
+c) distinguir diferentes tipos de variaveis; 
+Nao
+
+d) trocar variaveis por valores logicos
+Nao
